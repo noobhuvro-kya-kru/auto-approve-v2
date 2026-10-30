@@ -49,8 +49,7 @@ async def callback_query_handler(client, query: CallbackQuery):
             ),
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('📂 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾', url=SOURCE_CODE)],
-                [InlineKeyboardButton('☕ 𝖣𝗈𝗇𝖺𝗍𝖾', callback_data='donate'),
-                 InlineKeyboardButton('📊 𝖲𝗍𝖺𝗍𝗌', callback_data='stats')],
+                # [InlineKeyboardButton('☕ 𝖣𝗈𝗇𝖺𝗍𝖾', callback_data='donate'), InlineKeyboardButton('📊 𝖲𝗍𝖺𝗍𝗌', callback_data='stats')],
                 [InlineKeyboardButton('↩️ 𝖡𝖺𝖼𝗄', callback_data='start', style=enums.ButtonStyle.PRIMARY)]
             ])
         )
