@@ -34,9 +34,10 @@ async def start_cmd(client, message):
 
 @Client.on_message(filters.command("help") & filters.private)
 async def help_cmd(client, message):
-    msg = await message.reply(text.GUIDE,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎬 𝖶𝖺𝗍𝖼𝗁 𝖳𝗎𝗍𝗈𝗋𝗂𝖺𝗅", url="https://youtu.be/_n3V0gFZMh8", style=enums.ButtonStyle.PRIMARY)]])
-    )
+    # msg = await message.reply(text.GUIDE,
+    #     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎬 𝖶𝖺𝗍𝖼𝗁 𝖳𝗎𝗍𝗈𝗋𝗂𝖺𝗅", url="https://youtu.be/_n3V0gFZMh8", style=enums.ButtonStyle.PRIMARY)]])
+    # )
+    msg = await message.reply(text.GUIDE    )
     await asyncio.sleep(300)
     try:
         await msg.delete()
