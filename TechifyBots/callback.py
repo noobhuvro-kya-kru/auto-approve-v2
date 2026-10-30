@@ -20,10 +20,10 @@ async def callback_query_handler(client, query: CallbackQuery):
                 media=random.choice(PICS),
                 caption=text.START.format(query.from_user.mention)
             ),
+            # InlineKeyboardButton('📚 𝖧𝖾𝗅𝗉', callback_data='help')
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('⇆ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ⇆', url=f"https://telegram.me/{bot}?startgroup=true&admin=invite_users", style=enums.ButtonStyle.PRIMARY)],
-                [InlineKeyboardButton('ℹ️ 𝖠𝖻𝗈𝗎𝗍', callback_data='about'),
-                 InlineKeyboardButton('📚 𝖧𝖾𝗅𝗉', callback_data='help')],
+                [InlineKeyboardButton('ℹ️ 𝖠𝖻𝗈𝗎𝗍', callback_data='about')],
                 [InlineKeyboardButton('⇆ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 ⇆', url=f"https://telegram.me/{bot}?startchannel=true&admin=invite_users", style=enums.ButtonStyle.PRIMARY)]
             ])
         )
