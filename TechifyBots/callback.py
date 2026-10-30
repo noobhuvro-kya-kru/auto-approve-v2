@@ -80,7 +80,7 @@ async def callback_query_handler(client, query: CallbackQuery):
                 caption=text.DONATE
             ),
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton('💳 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖳𝗁𝖾 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', web_app=WebAppInfo(url='https://techifybots.vercel.app/pay'))],
+                # [InlineKeyboardButton('💳 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖳𝗁𝖾 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋', web_app=WebAppInfo(url='https://techifybots.vercel.app/pay'))],
                 [InlineKeyboardButton('↩️ 𝖡𝖺𝖼𝗄', callback_data='about', style=enums.ButtonStyle.PRIMARY),
                  InlineKeyboardButton('❌ 𝖢𝗅𝗈𝗌𝖾', callback_data='close', style=enums.ButtonStyle.DANGER)]
             ])
