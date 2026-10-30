@@ -21,7 +21,7 @@ class text(object):
 <b>‣ 𝖬𝗒 Boss :</b> <a href='https://telegram.me/somebody_noob_contact_bot'>ROMEO</a>
 <b>‣ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 :</b> v{}
 <b>‣ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 :</b> 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
-<b>‣ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 :</b> >𝖬𝗈𝗇𝗀𝗈𝖣𝖡
+<b>‣ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 :</b> 𝖬𝗈𝗇𝗀𝗈𝖣𝖡
 <b>‣ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 :</b> 𝖯𝗒𝗍𝗁𝗈𝗇 
 <b>‣ 𝖡𝗈𝗍 𝖲𝖾𝗋𝗏𝖾𝗋 :</b> Unknown
 """
